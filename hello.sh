@@ -18,5 +18,11 @@ read yourName
 echo Your name is $yourName
 
 read -p 'username:' user_var #This will allow to give inpuit in the same line
-echo username: $user_var
+read -sp 'password': pass_var # Input will be silent
 
+echo username: $user_var
+echo password: $pass_var
+read -a names
+echo "names are: ${names[0]}, ${names[1]} "
+read 
+echo $REAPLY

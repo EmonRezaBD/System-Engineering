@@ -1,0 +1,52 @@
+Commands:
+
+1.cat /etc/shells : To know all the shells in my system
+
+sh is original shell
+bash improved version of sh, it is a standered shell
+
+2. which bash: the location of bash
+
+.sh is the extension of shell.
+
+step-1: create any .sh file
+step-2: open with any text editor or IDE
+step-3: write the program
+step-4: ./name of the script : this will run the script.
+It uses interpreter, so no need to compile
+
+**When it says permissio denied, run ls -al command to see the permission
+. It has no execujtion permission.
+
+chmod +x hello.sh : gonna change the permission ***
+
+---Comments and variables----
+# is used for comment
+variales are system and user defined vars.
+system vars: $HOME
+	     $PWD
+
+user defined vars: name=reza (No space before and after the = sign)
+to show the var : echo $name           
+
+-----Take input from user------
+
+read varName
+
+read command is used to take input. it will save in varName
+read num1 num2 num3 : we can use like this
+read -p : to allow giving enter in the same line
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

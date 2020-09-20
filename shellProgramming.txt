@@ -1,3 +1,4 @@
+
 Commands:
 
 1.cat /etc/shells : To know all the shells in my system
@@ -36,6 +37,11 @@ read varName
 read command is used to take input. it will save in varName
 read num1 num2 num3 : we can use like this
 read -p : to allow giving enter in the same line
+read -sp : output will not show. after hitting enter we can see the output.
+read -a : will read an array
+${array[0]} : to print the val
+read : input goes to a default var $REPLY
+
 
 
  
